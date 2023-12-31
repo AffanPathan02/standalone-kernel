@@ -34,5 +34,7 @@ This command will compile the project and launch QEMU to run the kernel.
 ## Project Structure
 
 src/: Contains the source code for the kernel.
+
 main.rs: Entry point for the kernel.
+
 vga_buffer.rs: Module for handling VGA buffer operations.
