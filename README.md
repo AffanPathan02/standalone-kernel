@@ -1,28 +1,33 @@
-Prerequisites
-Before getting started, ensure you have the following prerequisites installed:
+# Standalone Kernel
+
+## Prerequisites
+
+Before you begin, make sure you have the following prerequisites installed:
 
 Rust: rustc 1.77.0-nightly
-QEMU: Install QEMU
-Getting Started
+QEMU: Follow the instructions to install QEMU for your operating system: https://www.qemu.org/
+## Getting Started
+
 Clone the Repository:
 
-bash
-Copy code
-https://github.com/AffanPathan02/standalone-kernel.git
+Bash
+git clone https://github.com/AffanPathan02/standalone-kernel.git
 cd standalone-kernel
+Use code with caution. Learn more
 Build the Project:
 
-bash
-Copy code
+Bash
 cargo build
+Use code with caution. Learn more
 Run the Kernel in QEMU:
 
-bash
-Copy code
+Bash
 cargo run
+Use code with caution. Learn more
 This command will compile the project and launch QEMU to run the kernel.
 
-Project Structure
+## Project Structure
+
 src/: Contains the source code for the kernel.
 main.rs: Entry point for the kernel.
 vga_buffer.rs: Module for handling VGA buffer operations.
